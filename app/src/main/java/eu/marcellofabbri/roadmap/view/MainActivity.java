@@ -1,8 +1,10 @@
-package eu.marcellofabbri.roadmap;
+package eu.marcellofabbri.roadmap.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import eu.marcellofabbri.roadmap.R;
 
 public class MainActivity extends AppCompatActivity {
 
