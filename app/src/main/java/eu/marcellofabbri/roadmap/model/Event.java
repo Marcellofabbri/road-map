@@ -27,12 +27,12 @@ public class Event {
         this.icon = icon;
     }
 
-    public String getBody() {
-        return body;
+    public String getTitle() {
+        return title;
     }
 
-    public void setBody(String body) {
-        this.body = body;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getLocation() {
@@ -46,14 +46,14 @@ public class Event {
     private OffsetDateTime startTime;
     private OffsetDateTime finishTime;
     private String icon;
-    private String body;
+    private String title;
     private String location;
 
-    public Event(OffsetDateTime startTime, OffsetDateTime finishTime, String icon, String body, String location) {
+    public Event(OffsetDateTime startTime, OffsetDateTime finishTime, String icon, String title, String location) {
         this.startTime = startTime;
         this.finishTime = finishTime;
         this.icon = icon;
-        this.body = body;
+        this.title = title;
         this.location = location;
     }
 
