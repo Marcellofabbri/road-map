@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputEvent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="EVENT DESCRIPTION"
+        android:textSize="26dp"
+        android:drawableStart="@drawable/event_icon"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/inputStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="SELECT START TIME"
+        android:textSize="26dp"
+        android:drawableStart="@drawable/timer_on"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/inputFinishTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="SELECT FINISH TIME"
+        android:textSize="26dp"
+        android:drawableStart="@drawable/timer_off"
+        android:drawablePadding="10dp"/>
+
+
+
+</LinearLayout>

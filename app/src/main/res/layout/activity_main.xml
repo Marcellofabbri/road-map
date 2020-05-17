@@ -2,10 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -18,16 +19,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="start time"
-                android:layout_column="1">
-            </TextView>
+                android:layout_column="1"
+                android:text="start time"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="05:00"
-                android:layout_column="2">
-            </TextView>
+                android:layout_column="2"
+                android:text="05:00"></TextView>
 
         </TableRow>
 
@@ -38,16 +37,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="finish time"
-                android:layout_column="1">
-            </TextView>
+                android:layout_column="1"
+                android:text="finish time"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="06:00"
-                android:layout_column="2">
-            </TextView>
+                android:layout_column="2"
+                android:text="06:00"></TextView>
 
         </TableRow>
 
@@ -58,16 +55,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="icon"
-                android:layout_column="1">
-            </TextView>
+                android:layout_column="1"
+                android:text="icon"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="ICON"
-                android:layout_column="2">
-            </TextView>
+                android:layout_column="2"
+                android:text="ICON"></TextView>
 
         </TableRow>
 
@@ -78,16 +73,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="title"
-                android:layout_column="1">
-            </TextView>
+                android:layout_column="1"
+                android:text="title"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="name of the task"
-                android:layout_column="2">
-            </TextView>
+                android:layout_column="2"
+                android:text="name of the task"></TextView>
 
         </TableRow>
 
@@ -98,19 +91,42 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="location"
-                android:layout_column="1">
-            </TextView>
+                android:layout_column="1"
+                android:text="location"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="COORDINATES"
-                android:layout_column="2">
-            </TextView>
+                android:layout_column="2"
+                android:text="COORDINATES"></TextView>
 
         </TableRow>
 
     </TableLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALENDAR" />
+
+    </LinearLayout>
 
 </LinearLayout>
